@@ -1,0 +1,103 @@
+
+
+body {
+    background: url(sunset.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.visible{
+  display: none;
+}
+#title{
+    color:white;
+    margin-top: 3%;
+    text-align: center;
+}
+#main{
+    background-color: rgba(238,238,238,.5);
+    padding:2%;
+}
+span.aster{
+  color:red;
+}
+.table-striped{
+  text-align: center;
+}
+.bt{
+  background-color:rgba(108, 226, 128, 0.9)  
+}
+
+#icon{
+  width:50%;
+}
+#currentT{
+  color:darkturquoise;
+}
+.map {
+  height: 400px;
+  width: 100%;
+  display:block;
+ }
+ 
+.low{
+	color:blue;
+	display: inline; 
+}
+.high{
+	color:red;
+	display: inline; 
+}
+span.hide{
+  color: red;
+  display: none;
+}
+.celsiu{
+  color:green;
+  
+}
+.btn-primary{
+    margin-left:-5px;
+    margin-right: 5px;
+}
+.btn-danger{
+    margin-right:5px;
+}
+
+.tab {
+    overflow: hidden;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color:royalblue;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button.hover {
+    background-color:white;
+    color:#00008b;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color:royalblue;
+    background-color:white;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    background-color:white;
+    
+    padding:2em;
+    
+    padding:2em;
+  }
+
